@@ -18,4 +18,10 @@ public class CalculatorTests
     {
         Assert.That(0, Is.EqualTo(calculator.Subtraction(2, 2)));
     }
+
+    [Test]
+    public void MiltiplicationMustReturnCorrectValue()
+    {
+        Assert.That(4, Is.EqualTo(calculator.Miltiplication(2, 2)));
+    }
 }
