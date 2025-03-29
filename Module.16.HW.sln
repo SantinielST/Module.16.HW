@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.35821.62 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.16.HW", "Module.16.HW\Module.16.HW.csproj", "{DCCECFB1-BACE-4319-B484-ABB83D9B9CD3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.Tests", "Calculator.Tests\Calculator.Tests.csproj", "{CC4C1F16-B9A4-47E7-9E61-62FC03D66A1C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorTests", "Calculator.Tests\CalculatorTests.csproj", "{CC4C1F16-B9A4-47E7-9E61-62FC03D66A1C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
