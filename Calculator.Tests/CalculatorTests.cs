@@ -30,4 +30,10 @@ public class CalculatorTests
     {
         Assert.That(1, Is.EqualTo(calculator.Division(2, 2)));
     }
+
+    [Test]
+    public void DivisionMustThrowException()
+    {
+        Assert.Throws<DivideByZeroException>(() => calculator.Division(2, 0));
+    }
 }
