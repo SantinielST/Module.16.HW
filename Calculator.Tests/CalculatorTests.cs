@@ -24,4 +24,10 @@ public class CalculatorTests
     {
         Assert.That(4, Is.EqualTo(calculator.Miltiplication(2, 2)));
     }
+
+    [Test]
+    public void DivisionMustReturnCorrectValue()
+    {
+        Assert.That(1, Is.EqualTo(calculator.Division(2, 2)));
+    }
 }
