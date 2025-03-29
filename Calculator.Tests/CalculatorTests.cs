@@ -12,4 +12,10 @@ public class CalculatorTests
     {
         Assert.That(4, Is.EqualTo(calculator.Additional(2, 2)));
     }
+
+    [Test]
+    public void SubtractionMustReturnCorrectValue()
+    {
+        Assert.That(0, Is.EqualTo(calculator.Subtraction(2, 2)));
+    }
 }
